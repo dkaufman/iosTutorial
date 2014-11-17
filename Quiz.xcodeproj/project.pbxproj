@@ -19,6 +19,8 @@
 		9A91CEBD1A1A7B63004F2102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A91CEA51A1A7B62004F2102 /* UIKit.framework */; };
 		9A91CEC51A1A7B63004F2102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A91CEC31A1A7B63004F2102 /* InfoPlist.strings */; };
 		9A91CEC71A1A7B63004F2102 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A91CEC61A1A7B63004F2102 /* QuizTests.m */; };
+		9A91CED31A1A7B8D004F2102 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A91CED11A1A7B8D004F2102 /* BNRQuizViewController.m */; };
+		9A91CED41A1A7B8D004F2102 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A91CED21A1A7B8D004F2102 /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		9A91CEC21A1A7B63004F2102 /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		9A91CEC41A1A7B63004F2102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A91CEC61A1A7B63004F2102 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		9A91CED01A1A7B8D004F2102 /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		9A91CED11A1A7B8D004F2102 /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		9A91CED21A1A7B8D004F2102 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		9A91CE951A1A7B62004F2102 = {
 			isa = PBXGroup;
 			children = (
+				9A91CED01A1A7B8D004F2102 /* BNRQuizViewController.h */,
+				9A91CED11A1A7B8D004F2102 /* BNRQuizViewController.m */,
+				9A91CED21A1A7B8D004F2102 /* BNRQuizViewController.xib */,
 				9A91CEA71A1A7B62004F2102 /* Quiz */,
 				9A91CEC01A1A7B63004F2102 /* QuizTests */,
 				9A91CEA01A1A7B62004F2102 /* Frameworks */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A91CEAC1A1A7B62004F2102 /* InfoPlist.strings in Resources */,
+				9A91CED41A1A7B8D004F2102 /* BNRQuizViewController.xib in Resources */,
 				9A91CEB41A1A7B63004F2102 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +251,7 @@
 			files = (
 				9A91CEAE1A1A7B62004F2102 /* main.m in Sources */,
 				9A91CEB21A1A7B63004F2102 /* BNRAppDelegate.m in Sources */,
+				9A91CED31A1A7B8D004F2102 /* BNRQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
